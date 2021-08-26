@@ -1,0 +1,13 @@
+Questions:
+ - question: "Brush your teeth?"
+    active: True
+    morning: True
+    Evening: True
+ - question: "Meditate?"
+    active: True
+    morning: False
+    Evening: True
+ - question: "review at 11:"
+    active: True
+    morning: False
+    Evening: True
