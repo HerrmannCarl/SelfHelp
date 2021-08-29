@@ -1,13 +1,18 @@
 Questions:
- - question: "Brush your teeth?"
-    active: True
-    morning: True
-    Evening: True
- - question: "Meditate?"
-    active: True
-    morning: False
-    Evening: True
- - question: "review at 11:"
-    active: True
-    morning: False
-    Evening: True
+  True-False:
+  - question: "Brush your teeth?"
+      active: True
+      morning: True
+      Evening: True
+  - question: "Meditate?"
+      active: True
+      morning: False
+      Evening: True
+  - question: "review at 11:00"
+      active: True
+      morning: False
+      Evening: True
+  Longform:
+  - question: "How was today?"
+  - question: "How is your skin?"
+  - question: "do you feel calm?"

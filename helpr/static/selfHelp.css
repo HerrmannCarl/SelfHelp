@@ -27,7 +27,7 @@
     background-color: rosybrown;
     padding:1px;
     display:table;
-    border:1px solid black;
+    border:1px solid rgb(155, 141, 141);
     margin:2px;
 }
 
@@ -36,6 +36,7 @@
     padding:1px;
     display:table;
     border:1px solid black;
+    border-radius: 5px;
     margin:2px;
 }
 
@@ -78,6 +79,73 @@
     align-items: center;
 }
 
+.freeform_look_1{
+    background-color: rgb(188, 143, 171);
+    position:relative;
+    padding:1px;
+    display:table;
+    border:1px solid black;
+    margin:2px;
+    width:556px;
+    border-radius:5px;
+}
+
+.freeform_question{
+    display:flex;
+    align-items: center;
+    margin:5px;
+    height:2em;
+    width:95%;
+    padding:3px;
+    border:solid black 1px;
+    border-radius: 3px;
+}
+
+.longform_input{
+    height:150px;
+    width:95%;
+    margin:5px;
+    padding:5px;
+    border-radius:3px;
+    background-color:rgb(255, 174, 201);
+}
+
+.button_submit{
+    float:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin:5px;
+
+    background-color: rgb(65, 192, 171);
+    height:50px;
+    width:100px;
+    border-radius: 3px;
+    border: solid black 1px;
+}
+
+.button_holder{
+    display:flex;
+    float:center;
+    justify-content:center;
+    width:550px;
+}
+
+.current_answer_2{
+    float:center;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    margin:5px;
+
+    background-color: grey;
+    height:47px;
+    width:50px;
+    border-radius: 3px;
+    border: solid black 1px;
+}
 
 /* p {
     text-align: center;

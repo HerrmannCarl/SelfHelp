@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Answer - Submitted!{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<h3>Submission Successful!</h3>
+
+<h3>Answers in iteration</h3>
+
+{% for answer in answers %}
+    <br>{{questions[loop.index-1]}} -- {{answer}} 
+{% endfor %}
+
+{% endblock %}
