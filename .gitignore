@@ -25,5 +25,7 @@ hs_err_pid*
 # compiled python files 
 *.pyc
 
+
+*/Scratch*
 */backup*
 */__pycache__*
