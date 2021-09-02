@@ -1,0 +1,77 @@
+answers:
+- answer:
+  - answer: 'No'
+    instance_id: 1
+    question_id: 1
+    question_text: Brush your teeth?
+  - answer: 'No'
+    instance_id: 2
+    question_id: 2
+    question_text: Medidate?
+  - answer: 'Yes'
+    instance_id: 3
+    question_id: 3
+    question_text: Review at 11:00?
+  - answer: 'Yes'
+    instance_id: 4
+    question_id: 4
+    question_text: Take your meds?
+  - answer: 'Yes'
+    instance_id: 5
+    question_id: 5
+    question_text: Hautpflege? (with love!)
+  - answer: Today was good.  I helped Susanne at her house, and it was good to see
+      another human.  No run, though - I hope to do that tomorrow.
+    instance_id: 6
+    question_id: 101
+    question_text: How was today?
+  - answer: "It's good.  I feel like I'm starting to piece apart the psychosomatic\
+      \ scratching from the \"my skin is awful and eczema sucks\" scratching, due\
+      \ to the meds they've got me on.  \r\nI need to work on the psychosomatic scratching,\
+      \ but I think that'll be easier when the Eczema isn't complicating things. "
+    instance_id: 7
+    question_id: 102
+    question_text: How is your skin?
+  - answer: 'I feel Ok now.  I''m not calm, and don''t think I''ll sleep for a bit,
+      but I think that''s OK. '
+    instance_id: 8
+    question_id: 103
+    question_text: do you feel calm?
+  answer_id: 1
+  timestamp: '2021-08-31 21:22:11'
+- answer:
+  - answer: 'No'
+    instance_id: 9
+    question_id: 1
+    question_text: Brush your teeth?
+  - answer: ''
+    instance_id: 10
+    question_id: 2
+    question_text: Medidate?
+  - answer: 'Yes'
+    instance_id: 11
+    question_id: 3
+    question_text: Review at 11:00?
+  - answer: 'Yes'
+    instance_id: 12
+    question_id: 4
+    question_text: Take your meds?
+  - answer: 'Yes'
+    instance_id: 13
+    question_id: 5
+    question_text: Hautpflege? (with love!)
+  - answer: 'Today was solidly okay.  I''m glad I talked to my parents. '
+    instance_id: 14
+    question_id: 101
+    question_text: How was today?
+  - answer: 'It''s good.  Last night I had a flare-up; I''m hoping to avoid that tonight.  '
+    instance_id: 15
+    question_id: 102
+    question_text: How is your skin?
+  - answer: 'No, not yet. I feel active and alert. '
+    instance_id: 16
+    question_id: 103
+    question_text: do you feel calm?
+  answer_id: 2
+  timestamp: '2021-09-01 21:49:31'
+schema_version: 1

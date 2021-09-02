@@ -13,20 +13,20 @@
     <div class = "button_look_2" >
         <div class = "yes_button" onclick="buttonYes(this)"> Yes</div>
         <div class = "no_button" onclick="buttonNo(this)">No</div>
-        <div class = "button_question_2" onclick="buttonReset(this)" ><p>{{ q }}</p></div>
+        <div class = "button_question_2" onclick="buttonReset(this)" ><p>{{ q["question"] }}</p></div>
         <div class = "current_answer"><p></p></div>
         <!-- <div class = "button_misc">  -->
-            <textarea name = "tf_answer_{{loop.index}}" class = "current_answer_2">{{request.form['tf_answer_'+loop.index|string]}}</textarea>
+            <textarea name = "tf_answer_{{q['id']}}" class = "current_answer_2">{{request.form['tf_answer_'+q['id']|string]}}</textarea>
         <!-- </div> -->
     </div>
     {% endfor %}
     
     {% for q in lf %}
     <div class = "freeform_look_1">
-        <div class = "freeform_question">{{q}}</div>
+        <div class = "freeform_question">{{q["question"]}}</div>
         <div class = "freeform_entry">
                 <!-- <label for="fname">First name:</label><br> -->
-                <textarea name = "lf_answer_{{loop.index}}" class = "longform_input" id="input_{{loop.index}}" rows="4" cols="50" >{{request.form['lf_answer_'+loop.index|string]}}</textarea>
+                <textarea name = "lf_answer_{{q['id']}}" class = "longform_input" id="input_{{q['id']}}" rows="4" cols="50" >{{request.form['lf_answer_'+loop.index|string]}}</textarea>
         </div>
     </div>
     {% endfor %}

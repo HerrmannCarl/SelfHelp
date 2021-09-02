@@ -1,0 +1,52 @@
+Questions:
+  Longform:
+  - created: 2021-08-31 21:19:24
+    currently_active: 1
+    evening: 1
+    id: 101
+    morning: 1
+    question: How was today?
+  - created: 2021-08-31 21:19:24
+    currently_active: 1
+    evening: 1
+    id: 102
+    morning: 1
+    question: How is your skin?
+  - created: 2021-08-31 21:19:24
+    currently_active: 1
+    evening: 1
+    id: 103
+    morning: 0
+    question: do you feel calm?
+  True-False:
+  - created: 2021-08-31 21:19:24
+    currently_active: 1
+    evening: 1
+    id: 1
+    morning: 1
+    question: Brush your teeth?
+  - created: 2021-08-31 21:19:24
+    currently_active: 1
+    evening: 1
+    id: 2
+    morning: 0
+    question: Medidate?
+  - created: 2021-08-31 21:19:24
+    currently_active: 1
+    evening: 1
+    id: 3
+    morning: 0
+    question: Review at 11:00?
+  - created: 2021-08-31 21:19:24
+    currently_active: 1
+    evening: 1
+    id: 4
+    morning: 1
+    question: Take your meds?
+  - created: 2021-08-31 21:19:24
+    currently_active: 1
+    evening: 1
+    id: 5
+    morning: 1
+    question: Hautpflege? (with love!)
+schema_version: 1

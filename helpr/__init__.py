@@ -40,8 +40,19 @@ def create_app(test_config=None):
     @app.route('/answer_submit')
     def answer_submit():
         return answerPy.answerSubmit()
+
+    from . import configPy
+    @app.route("/config",methods = ("GET", 'POST'))
+    def config():
+        return configPy.configPage()
     
     from . import db
     db.init_app(app)
+
+    from . import dataPy
+    dataPy.init_app(app)
+
+    from . import tooling
+    tooling.init_app(app)
 
     return app

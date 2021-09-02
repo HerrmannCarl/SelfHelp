@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Configur Questions{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<h3>Questions</h3>
+
+<div>
+<table>
+    <tr>
+    {% for f in fields %}
+        <th>
+        {{f}}
+        </th>
+    {% endfor %}
+    </tr>
+    {% for q in questions %}
+    <tr>
+        {% for f in fields %}
+            <td>{{q[f]}}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+</div>
+{% endblock %}

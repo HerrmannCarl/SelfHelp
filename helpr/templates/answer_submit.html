@@ -4,13 +4,25 @@
   <h1>{% block title %}Answer - Submitted!{% endblock %}</h1>
 {% endblock %}
 
-{% block content %}
-<h3>Submission Successful!</h3>
+{% block content %}  
 
-<h3>Answers in iteration</h3>
-
-{% for answer in answers %}
-    <br>{{questions[loop.index-1]}} -- {{answer}} 
+<h3>Most recent answers</h3>
+{% for question in questions %}
+    <br>{{question.id}} -- {{question.question}} -- {{question.answer}} 
 {% endfor %}
+
+<h3>array list</h3>
+{% if array_list|length < 1 %}
+No answered questions found in database
+{% endif %}
+<table>
+{% for line in array_list %}
+<tr>
+    {% for l in line %}
+    <td>{{l}}</td>
+    {% endfor %}
+</tr>
+{% endfor %}
+</table>
 
 {% endblock %}
